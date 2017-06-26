@@ -1,0 +1,8 @@
+#blog-posts
+  - @blog_posts.each do |post|
+    = link_to post.title, blog_post_path(post.id)
+    %br
+    %br
+    = post.preview
+    %br
+    = link_to "Contine reading", blog_post_path(post.id)
