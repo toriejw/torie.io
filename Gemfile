@@ -15,6 +15,7 @@ gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
 gem 'haml'
 gem 'rake', '< 11.0'
+gem 'redcarpet'
 
 group :development, :test do
   gem 'byebug'
