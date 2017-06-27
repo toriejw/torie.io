@@ -1,0 +1,6 @@
+#post
+  %h1= @post.title
+  = @post.created_at
+
+  #post-body
+    = @markdown.render(@post.body).html_safe
