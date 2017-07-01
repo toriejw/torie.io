@@ -1,6 +1,8 @@
 #post
   %h1= @post.title
-  = @post.created_at
+  = format_date(@post.created_at)
+  %br
+  %br
 
   #post-body
     = @markdown.render(@post.body).html_safe
