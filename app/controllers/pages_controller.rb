@@ -7,6 +7,7 @@ class PagesController < ApplicationController
   end
 
   def about
+    PageView.track("About")
   end
 
   def contact
