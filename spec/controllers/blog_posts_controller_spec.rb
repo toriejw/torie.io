@@ -10,6 +10,12 @@ describe BlogPostsController do
     it "renders the blog page" do
       expect(subject).to render_template(:show)
     end
+
+    it "logs a page view" do
+      expect { subject }.to change { PageView.count }.by 1
+
+      expect(PageView.last.page).to eq "Blog #{post.id}"
+    end
   end
 
 end
