@@ -30,4 +30,18 @@ describe PagesController do
     end
   end
 
+  describe "#contact" do
+    subject { get :contact }
+
+    it "renders the contact page" do
+      expect(subject).to render_template(:contact)
+    end
+
+    it "logs a page view" do
+      expect { subject }.to change { PageView.count }.by 1
+
+      expect(PageView.last.page).to eq "Contact"
+    end
+  end
+
 end
