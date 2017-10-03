@@ -5,4 +5,4 @@
   %br
 
   #post-body
-    = @markdown.render(@post.body).html_safe
+    ~ @markdown.render(@post.body).html_safe
