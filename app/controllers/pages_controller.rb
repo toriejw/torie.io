@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
 
   def home
-    @blog_posts = BlogPost.all
+    @blog_posts = BlogPost.order(created_at: :desc)
     @markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new(hard_wrap: true))
     PageView.track("Home")
   end
