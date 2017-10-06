@@ -16,6 +16,14 @@ describe BlogPost do
        measure.}
   }
 
+  it "sets the slug on save" do
+    expect(subject.slug).to eq nil
+
+    subject.save!
+
+    expect(subject.slug).to eq "post-title"
+  end
+
   context "#preview" do
     it "returns an abbreviated version of the post body" do
       expect(subject.preview.split("\n").count).to eq 4
