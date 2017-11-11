@@ -1,4 +1,5 @@
 #blog-posts
+  %h1= "blog posts  #{fa_icon("pencil", class: "pencil-icon")}".html_safe
   - @blog_posts.each do |post|
     .blog_post
       %h2#post-title
@@ -6,9 +7,4 @@
       #post-date
         = format_date(post.created_at)
 
-      #post-preview
-        = @markdown.render(post.preview).html_safe
-      = link_to "Contine reading", blog_post_path(post.slug)
-      %br
-      %br
-      %hr
+    %hr
