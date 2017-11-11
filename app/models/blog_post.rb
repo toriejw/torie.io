@@ -9,7 +9,7 @@ class BlogPost < ActiveRecord::Base
   end
 
   def set_slug
-    self.slug ||= title.downcase.gsub(" ", "-")
+    self.slug ||= title.downcase.gsub(" ", "-").gsub(".", "")
   end
 
 end

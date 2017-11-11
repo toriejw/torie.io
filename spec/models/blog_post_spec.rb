@@ -24,7 +24,22 @@ describe BlogPost do
     expect(subject.slug).to eq "post-title"
   end
 
-  context "#preview" do
+  describe "#set_slug" do
+    context "title contains '.'" do
+      subject {
+        BlogPost.new(title: "Post vs. Title",
+                     body: post_body)
+      }
+
+      it "removes the '.'" do
+        subject.set_slug
+
+        expect(subject.slug).to eq "post-vs-title"
+      end
+    end
+  end
+
+  describe "#preview" do
     it "returns an abbreviated version of the post body" do
       expect(subject.preview.split("\n").count).to eq 4
     end
