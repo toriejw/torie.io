@@ -107,10 +107,13 @@ No. While indexing speeds up reading from a database, it also slows down writing
 Generally, join tables and foreign keys should be indexed. Primary ids are indexed automatically in Rails.
 }
 
+horizontal_vs_vertical_db_body = File.open("db/posts/horizontal-vs-vertical-databases.md").readlines.join
+
 posts = [
   { title: "The Ruby Object Model", body: object_model_body, created_at: Date.parse("20150912") },
   { title: "Basic Memoization in Ruby", body: memoization_body, created_at: Date.parse("20151006") },
-  { title: "Performance Optimization and Indexing in Rails", body: indexing_in_rails_body, created_at: Date.parse("20160225") }
+  { title: "Performance Optimization and Indexing in Rails", body: indexing_in_rails_body, created_at: Date.parse("20160225") },
+  { title: "Horizontal vs. Vertical Databases", body: horizontal_vs_vertical_db_body }
 ]
 
 posts.each do |post|
