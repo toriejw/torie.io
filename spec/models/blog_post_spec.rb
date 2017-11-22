@@ -12,8 +12,10 @@ describe BlogPost do
        with multiple lines.
 
        Here's another sentence.
-       And one more for good
-       measure.}
+       This would make a great
+       poem.
+       And one more sentence
+       for good measure.}
   }
 
   it "sets the slug on save" do
@@ -41,7 +43,7 @@ describe BlogPost do
 
   describe "#preview" do
     it "returns an abbreviated version of the post body" do
-      expect(subject.preview.split("\n").count).to eq 4
+      expect(subject.preview.split("\n").count).to eq 6
     end
   end
 
