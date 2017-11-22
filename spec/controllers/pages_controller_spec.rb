@@ -2,7 +2,7 @@ require "rails_helper"
 
 describe PagesController do
 
-  context "#home" do
+  describe "#home" do
     subject { get :home }
 
     it "renders the home page" do
@@ -41,6 +41,20 @@ describe PagesController do
       expect { subject }.to change { PageView.count }.by 1
 
       expect(PageView.last.page).to eq "Contact"
+    end
+  end
+
+  describe "#blog" do
+    subject { get :blog }
+
+    it "renders the home page" do
+      expect(subject).to render_template(:blog)
+    end
+
+    it "logs a page view" do
+      expect { subject }.to change { PageView.count }.by 1
+
+      expect(PageView.last.page).to eq "Blog"
     end
   end
 
