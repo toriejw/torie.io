@@ -3,6 +3,4 @@
     = link_to("torie.io", root_path)
   .pages
     .nav
-      = link_to("about", about_path)
-      = link_to("contact", contact_path)
-      = link_to("blog", blog_path)
+      = "#{link_to("about", about_path)}|#{link_to("contact", contact_path)}|#{link_to("blog", blog_path)}".html_safe
