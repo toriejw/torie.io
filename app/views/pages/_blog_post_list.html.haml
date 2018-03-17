@@ -7,6 +7,6 @@
         = format_date(post.created_at)
       #post-preview
         = @markdown.render(post.preview).html_safe
-      = link_to "Contine reading", blog_post_path(post.slug)
+      = link_to "Continue reading", blog_post_path(post.slug)
 
     %hr
