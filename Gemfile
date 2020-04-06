@@ -16,7 +16,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
 gem 'haml'
-gem 'rake', '< 11.0'
+gem 'rake', '< 13.0'
 gem 'redcarpet'
 
 gem 'font-awesome-rails'
