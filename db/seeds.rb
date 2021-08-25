@@ -111,6 +111,10 @@ horizontal_vs_vertical_db_body = File.open("db/posts/horizontal-vs-vertical-data
 go_interfaces_body = File.open("db/posts/go-interfaces.md").readlines.join
 sqli_body = File.open("db/posts/sqli-in-rails.md").readlines.join
 deviations_conventions_body = File.open("db/posts/avoid-conventions-requiring-meaningless-deviation.md").readlines.join
+conventions_body = File.open("db/posts/establish-and-adhere-to-conventions.md").readlines.join
+full_variable_names_body = File.open("db/posts/full-variable-names.md").readlines.join
+make_code_ignorable_body = File.open("db/posts/make-code-ignorable.md").readlines.join
+brain_science_body = File.open("db/posts/what-brain-science-can-teach-us-about-code.md").readlines.join
 
 posts = [
   { title: "The Ruby Object Model", body: object_model_body, created_at: Date.parse("20150912") },
@@ -120,6 +124,10 @@ posts = [
   { title: "Introduction to Interfaces in Golang", body: go_interfaces_body },
   { title: "SQL Injection in Rails", body: sqli_body },
   { title: "Avoid Conventions That Require Meaningless Deviation", subtitle: "What Brain Science Can Teach Us About Writing Good Code, Part 4", body: deviations_conventions_body },
+  { title: "Establish and Adhere to Conventions", subtitle: "What Brain Science Can Teach Us About Writing Good Code, Part 3", body: conventions_body },
+  { title: "Always Use Full Variable Names", subtitle: "What Brain Science Can Teach Us About Writing Good Code, Part 2", body: full_variable_names_body },
+  { title: "Make Code Ignorable", subtitle: "What Brain Science Can Teach Us About Writing Good Code, Part 1", body: make_code_ignorable_body },
+  { title: "What Brain Science Can Teach Us About Writing Good Code", body: brain_science_body },
 ]
 
 posts.each do |post|
