@@ -25,6 +25,8 @@ So how can we use cognitive science to write better code? Similar to the develop
 
 In the same way that written language evolved to work with our brains, code inevitably will too. Although we are just beginning to scratch the surface in understanding how our brains work, we can use what we do know to help speed up this evolution.
 
+# Coding patterns supported by brain science
+
 There are a few coding patterns that are supported by what we know about how our brains work. Some of these may seem basic, but my hope is that with the backing of cognitive research, we’ll enhance understanding of just how important some coding patterns can be. A few of these patterns are:
 
 - [Make code ignorable](/posts/make-code-ignorable)
