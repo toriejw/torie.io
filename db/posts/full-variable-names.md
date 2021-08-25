@@ -1,5 +1,7 @@
 It’s hard to find code that doesn’t use shortened variable names. Developers often use `e` instead of `error`, `tx` instead of `transaction`, and `ctl` instead of `control`. When we first began programming computers, shorter variables names were used in order to save computer memory. Memory was relatively limited in the first programmable computers, and so shorter variable names allowed for more complex programs. Computer memory capacity has increased exponentially since we began programming, and shortening variable names is no longer the approach we reach for when we do have memory problems, so it’s time we ditched the desire to keep variable names excessively short.
 
+
+
 Shorter variable names make code harder to comprehend. Researchers reported that **[bugs in code were identified 19% faster](https://doi.org/10.1007/s10664-018-9621-x) when words were used as variable names versus single letters or abbreviations**. Why might this be? One explanation has to do with how our brains process written language.
 
 # How do full variable names improve code comprehension?
