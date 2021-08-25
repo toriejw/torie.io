@@ -5,7 +5,7 @@ class BlogPost < ActiveRecord::Base
   before_save :set_slug
 
   def preview
-    body.split("\n").first(6).join("\n")
+    body.split("\n").first(4).join("\n")
   end
 
   def set_slug

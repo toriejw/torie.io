@@ -43,7 +43,7 @@ describe BlogPost do
 
   describe "#preview" do
     it "returns an abbreviated version of the post body" do
-      expect(subject.preview.split("\n").count).to eq 6
+      expect(subject.preview.split("\n").count).to eq 4
     end
   end
 
