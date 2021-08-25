@@ -27,10 +27,10 @@ In the same way that written language evolved to work with our brains, code inev
 
 There are a few coding patterns that are supported by what we know about how our brains work. Some of these may seem basic, but my hope is that with the backing of cognitive research, we’ll enhance understanding of just how important some coding patterns can be. A few of these patterns are:
 
-- [Make code ignorable](torie.io/posts/make-code-ignorable)
-- [Use full variable names](torie.io/posts/always-use-full-variable-names)
-- [Establish & adhere to conventions](torie.io/posts/establish-and-adhere-to-conventions)
-- [Avoid conventions that require (meaningless) deviation](torie.io/posts/avoid-conventions-that-require-meaningless-deviation)
+- [Make code ignorable](/make-code-ignorable)
+- [Use full variable names](/always-use-full-variable-names)
+- [Establish & adhere to conventions](/establish-and-adhere-to-conventions)
+- [Avoid conventions that require (meaningless) deviation](/avoid-conventions-that-require-meaningless-deviation)
 
 In order to save you infinite scrolling, each pattern will be expanded on in its own post and is linked to above. It’s important to note that what we know about the brain evolves constantly. As we learn more, it’s possible that these patterns no longer make sense, and we should aim to be flexible in incorporating new research into how we code.
 
