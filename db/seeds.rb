@@ -119,12 +119,13 @@ posts = [
   { title: "Horizontal vs. Vertical Databases", body: horizontal_vs_vertical_db_body },
   { title: "Introduction to Interfaces in Golang", body: go_interfaces_body },
   { title: "SQL Injection in Rails", body: sqli_body },
-  { title: "Avoid Conventions That Require Meaningless Deviation", body: deviations_conventions_body },
+  { title: "Avoid Conventions That Require Meaningless Deviation", subtitle: "What Brain Science Can Teach Us About Writing Good Code, Part 4", body: deviations_conventions_body },
 ]
 
 posts.each do |post|
   fresh_post = BlogPost.find_or_initialize_by(title: post[:title])
   fresh_post.body = post[:body]
+  fresh_post.subtitle = post[:subtitle] if post[:subtitle]
   fresh_post.created_at = post[:created_at] if post[:created_at]
   fresh_post.save!
 end

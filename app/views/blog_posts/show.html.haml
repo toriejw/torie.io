@@ -2,6 +2,8 @@
 
 #post
   %h1#title= @post.title
+  - if @post.subtitle
+    %h2#subtitle= @post.subtitle
   #date= format_date(@post.created_at)
   %br
   %br

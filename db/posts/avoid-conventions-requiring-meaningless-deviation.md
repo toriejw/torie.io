@@ -1,5 +1,3 @@
-#### What Brain Science Can Teach Us About Writing Good Code, Part 4
-
 We've discussed the importance of establishing and adhering to conventions, whether that be file structures or code style. While establishing a convention at all is generally more important than what that convention actually is, brain science can provide some guidance on what conventions are most helpful.
 
 One trait of a good convention is that it doesn’t require meaningless deviation. The saying “every rule has an exception” applies to conventions as well, and by being thoughtful about what these exceptions are, we can help reduce noise and consequently cognitive and mental load.
