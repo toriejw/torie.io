@@ -39,7 +39,7 @@ As I’m skimming the file, my brain is far more likely to filter out that line 
 
 # How do we decide what our conventions should be?
 
-Generally speaking, the establishment of conventions is far more important than what convention is actually chosen. That said, brain science can also help us choose more productive conventions. [“Avoid Conventions That Require Meaningless Deviation”](/avoid-conventions-that-require-meaningless-deviation) explores a starting principle for choosing good conventions.
+Generally speaking, the establishment of conventions is far more important than what convention is actually chosen. That said, brain science can also help us choose more productive conventions. [“Avoid Conventions That Require Meaningless Deviation”](/posts/avoid-conventions-that-require-meaningless-deviation) explores a starting principle for choosing good conventions.
 
 ---
 
