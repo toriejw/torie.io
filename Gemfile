@@ -1,23 +1,24 @@
 source 'https://rubygems.org'
 
-ruby '2.5.1'
+ruby '3.0.2'
 
-gem 'rails', '4.2.8'
-gem 'pg', '~> 0.18'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
+gem 'rails', '6.1.4'
+gem 'pg'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
 
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'jbuilder'
+gem 'sdoc', group: :doc
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
 gem 'haml'
-gem 'rake', '< 11.0'
+gem 'rake'
 gem 'redcarpet'
+gem 'webrick'
 
 gem 'font-awesome-rails'
 
@@ -29,6 +30,6 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '>= 3.3.0'
   gem 'spring'
 end
