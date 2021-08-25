@@ -3,7 +3,7 @@ require "rails_helper"
 describe BlogPostsController do
 
   context "#show" do
-    subject { get :show, slug: post.slug }
+    subject { get :show, params: { slug: post.slug } }
 
     let(:post) { BlogPost.create(title: "Title", body: "Body") }
 

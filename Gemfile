@@ -25,6 +25,7 @@ gem 'font-awesome-rails'
 group :development, :test do
   gem 'byebug'
   gem 'pry'
+  gem 'rails-controller-testing'
   gem 'rspec-rails'
   gem 'timecop'
 end
