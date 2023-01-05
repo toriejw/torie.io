@@ -4,7 +4,7 @@ Developers frequently debate about how to best simplify code, make it more reada
 
 When that happens, our ability to think declines&mdash;we become slower at comprehending and the number of mistakes we make increases. This means that there is a limit on how much higher-level thinking our brains can do in a given day. **Reducing unnecessary cognitive and mental load allows us to focus on the most important things and get more done.**
 
-That said, cognitive load is not a term that everyone loves. It’s often used as an argument for or against something but presented as a definitive argument: “we should do it this way because it reduces cognitive load”. Without actually understanding how our brains interpret code and navigate complexity this argument lacks validity and is often used dismissively. More often than not, the concept we’re really talking about is mental load. My hope is that we can start to understand what does contribute to cognitive and mental load in software engineering and intentionally apply cognitive science to our engineering patterns.
+That said, cognitive load is not a term that everyone loves. It’s often used as an argument for or against something but presented as a definitive argument: “we should do it this way because it reduces cognitive load”. Without actually understanding how our brains interpret code and navigate complexity this argument can be misued and is often used dismissively. More often than not, the concept we’re really talking about is mental load. My hope is that we can start to understand what does contribute to cognitive and mental load in software engineering and intentionally apply cognitive science to our engineering patterns.
 
 # Reducing cognitive and mental load
 
