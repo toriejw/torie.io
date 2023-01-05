@@ -1,4 +1,4 @@
-Developers often debate about how to best simplify code, make it more readable, or otherwise reduce the cognitive and mental load of the code we write. Cognitive load refers to the amount of strain we put on our short-term memory, while mental load describes the amount of strain we put on our brains as whole. Any form of cognition (thinking, reading, processing) requires energy, and just like the rest of your body, the brain’s energy levels get depleted.
+Developers frequently debate about how to best simplify code, make it more readable, or otherwise reduce the cognitive and mental load of the code we write. Cognitive load refers to the amount of strain we put on our short-term memory, while mental load describes the amount of strain we put on our brains as whole. Any form of cognition (thinking, reading, processing) requires energy, and just like the rest of your body, the brain’s energy levels get depleted.
 
 
 
